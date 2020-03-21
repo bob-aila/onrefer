@@ -67,15 +67,15 @@
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-              <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
-            </li>
+		  </li>
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Our Team</a>
             </li>
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#pricing">Pricing</a>
+            </li>
+		  <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
             </li>
 			<li class="nav-item">
                 <a class="nav-link js-scroll-trigger" 
