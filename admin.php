@@ -135,7 +135,7 @@ $check = "SELECT * FROM admin WHERE username='$_SESSION[name]' LIMIT 1";
                         <a href="#">Contact</a>
                     </p>
                     <p class="footer-company-name">All Rights Reserved. &copy; 2020 <a href="#">onRefer</a> Design By : 
-					<a href="https://html.design/">schweitzer</a></p>
+					<a href="https://www.linkedin.com/in/bob-philip-54102a162">schweitzer</a></p>
                 </div>
             </div>
         </div><!-- end container -->
