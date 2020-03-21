@@ -34,7 +34,7 @@
     <![endif]-->
 
 </head>
-<body id="page-top" class="politics_version">
+<body id="page-top" class="politics_version" oncontextmenu="return false" onselectstart="return false" on ondragstart="return false">
 
     <!-- LOADER -->
     <div id="preloader">
