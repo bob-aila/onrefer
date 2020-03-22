@@ -3,6 +3,10 @@ require('database.php');
 if("$_POST[username]"=="$_POST[inviter]"){
     die("Offence reported, You can not invite yourself!");
 }
+$check="SELECT * FROM registered WHERE username = '$_POST[username]'";
+$rs = mysqli_query($con,$check);
+$data = mysqli_fetch_array($rs, MYSQLI_NUM);
+if($data[0] < 1) {
 $check="SELECT * FROM users WHERE username = '$_POST[username]'";
 $rs = mysqli_query($con,$check);
 $data = mysqli_fetch_array($rs, MYSQLI_NUM);
@@ -20,7 +24,9 @@ if($data[0] > 0) {
 
 }else{
       die("Check the inviters username!");
-      }}
-    
-      die("Your username has not been registered!");
+      }}else{
+      die("Your username has not been registered!");}
+    else{
+         die("Reported!.Dont Change your username!");
+    }
 ?>
