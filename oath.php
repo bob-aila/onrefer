@@ -28,7 +28,7 @@ if ($stmt = $con->prepare('SELECT id, password FROM admin WHERE username = ?')) 
         //This redirects us to the homepage after successfull login
 		header('Location: admin.php');
 	} else {
-		header('Location: index.php.php');
+		header('Location: index.php');
 	}
 } else {
 	header('Location: index.php');
