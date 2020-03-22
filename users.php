@@ -213,9 +213,8 @@ echo "<p>Your balance is Ksh "."$your".".00";
     
                 <label><b>Password</b></label> 
                 <input type="password" placeholder="Password" name="password" required> 
-                <input type="checkbox" required><a href="api.whatsapp.com/send?phone=254753581874&text=Check%20'$_SESSION[name]'%20is%20withdrawing">Confirm Withdarawal</a>
+                <input type="checkbox" required>Confirm withdrawal
                 <p>By withdrawing, you agree to our terms and privacy <a href="#">Terms & Privacy</a>.</p> 
-  
                 <div class="clearfix"> 
                     <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> 
                     <button type="submit" class="signupbtn">Apply</button> 
