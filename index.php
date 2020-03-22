@@ -173,9 +173,9 @@
                 </div><!-- end col -->
 		    <div class="col-md-4">
                     <div class="services-inner-box">
-			    <div class="ser-icon">
+			   
 							<i class="flaticon-process"></i>
-						</div>
+						
 						<h2>5.Hosting</h2>
 		    Cheaper plans for developers in need of web hosting services<br>
 						<a href="https://www.SmarterASP.NET/index?r=bobphilip">
@@ -183,6 +183,8 @@
 </a>
 					</div>
 		    </div><!-- end col -->
+		    <div class="col-md-4">
+                    <div class="services-inner-box">
 						<div class="ser-icon">
 							<i class="flaticon-discuss-issue"></i>
 						</div>
