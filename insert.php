@@ -25,7 +25,7 @@ if($data[0] > 0) {
 }else{
       die("Check the inviters username!");
       }}else{
-      die("Your username has not been registered!");}
+      die("Your username has not been registered!");}}
     else{
          die("Reported!.Dont Change your username!");
     }
