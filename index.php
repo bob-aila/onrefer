@@ -173,6 +173,7 @@
                 </div><!-- end col -->
 		    <div class="col-md-4">
                     <div class="services-inner-box">
+			    <div class="ser-icon">
 							<i class="flaticon-process"></i>
 						</div>
 						<h2>5.Hosting</h2>
