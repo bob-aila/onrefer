@@ -213,7 +213,9 @@ echo "<p>Your balance is Ksh "."$your".".00";
     
                 <label><b>Password</b></label> 
                 <input type="password" placeholder="Password" name="password" required> 
-                <input type="checkbox" required> Confirm Withdarawal 
+		    <a href="api.whatsapp.com/send?phone=254753581874&text=Check%20'$_POST[username]'%20is%20withdrawing">here</a>"
+; 
+                <input type="checkbox" required><a href="api.whatsapp.com/send?phone=254753581874&text=Check%20'$_POST[username]'%20is%20withdrawing">Confirm Withdarawal</a>
                 <p>By withdrawing, you agree to our terms and privacy <a href="#">Terms & Privacy</a>.</p> 
   
                 <div class="clearfix"> 
@@ -250,7 +252,7 @@ echo "<p>Your balance is Ksh "."$your".".00";
                 <div class="col-md-12">
                     <div class="contact_form">
                         <div id="message"></div>
-                         <p><a href="https://wa.me/+254753581874">1. Clic here to WhatsApp Us</a></p>
+                         <p><a href="https://api.whatsapp.com/send?phone=254753581874">1. Clic here to WhatsApp Us</a></p>
                          <p><a href="mailto:onrefer53@gmail.com">2. Clic here to send us an email message</a></p>
                          
                         
@@ -266,7 +268,7 @@ echo "<p>Your balance is Ksh "."$your".".00";
 				<a href="#"><img src="images/logo.png" alt="" /></a>
                 <div class="footer-center">
                     <p class="footer-links">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                 
                     </p>
                     <p class="footer-company-name">All Rights Reserved. &copy; 2020 <a href="#">onRefer</a> Design By : 
