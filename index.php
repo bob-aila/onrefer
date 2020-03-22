@@ -171,6 +171,7 @@
 						<p>This is an additional program to boost your earnings by helping the world in nature surveys that can earn a credit or withdrawable amounts worldwide</p>
 					</div>
                 </div><!-- end col -->
+		    <div class="col-md-4">
                     <div class="services-inner-box">
 							<i class="flaticon-process"></i>
 						</div>
@@ -180,6 +181,7 @@
 <img src="https://www.SmarterASP.NET/affiliate/300x250.gif" border="0">
 </a>
 					</div>
+		    </div><!-- end col -->
 						<div class="ser-icon">
 							<i class="flaticon-discuss-issue"></i>
 						</div>
