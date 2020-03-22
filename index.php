@@ -173,9 +173,9 @@
                 </div><!-- end col -->
 		    <div class="col-md-4">
                     <div class="services-inner-box">
-			   
+			   <div class="ser-icon">
 							<i class="flaticon-process"></i>
-						
+			    </div>
 						<h2>5.Hosting</h2>
 		    Cheaper plans for developers in need of web hosting services<br>
 						<a href="https://www.SmarterASP.NET/index?r=bobphilip">
@@ -192,7 +192,9 @@
 						<p>The services of this program is subjected to 24hours customer care support team</p>
 					</div>
                 </div><!-- end col -->
-				
+		<a href="https://www.SmarterASP.NET/index?r=bobphilip">
+<img src="https://www.SmarterASP.NET/affiliate/728X90.gif" border="0">
+</a>		
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
