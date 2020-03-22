@@ -112,7 +112,7 @@
                     <div class="message-box">                        
                         <h2>Welcome to onRefer</h2>
                         <p> This program enables a registered member to invite as many as possible earning on every referal that you invite, it enables you to earn with no limit provided you refer a friend, you have all the rights to earn $1.00 on each. Try today and be a witness. </p>
-						<p>Joinning only needs $3 payable via PayPal an Lipa na MPESA after which you will receive username(changable by <a href="https://api.whatsapp.com/send?phone=254753581874">just a clic here</a>) and password in 10 minutes time to make you eligible to our self-service payroll</p>
+						<p>Joinning only needs $3 payable via instant PayPal or Lipa na MPESA(<a href="join.html"> at JOIN US</a>) after which you will receive username(changable by <a href="https://api.whatsapp.com/send?phone=254753581874">just a clic here</a>) and password in 10 minutes time to make you eligible to our self-service payroll</p>
 
                         <a href="https://api.whatsapp.com/send?phone=254753581874" class="sim-btn hvr-bounce-to-top"><span>Contact Us Directly</span></a>
                     </div><!-- end messagebox -->
