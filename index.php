@@ -112,9 +112,9 @@
                     <div class="message-box">                        
                         <h2>Welcome to onRefer</h2>
                         <p> This program enables a registered member to invite as many as possible earning on every referal that you invite, it enables you to earn with no limit provided you refer a friend, you have all the rights to earn $1.00 on each. Try today and be a witness. </p>
-						<p>Joinning only needs $3 payed with LIPA NA MPESA after which you will receive username(changable by <a href="https://wa.me/+254753581874">just a clic here</a>) and password in 10 minutes time to make you eligible to our self-service payroll</p>
+						<p>Joinning only needs $3 payed with LIPA NA MPESA after which you will receive username(changable by <a href="https://api.whatsapp.com/send?phone=254753581874">just a clic here</a>) and password in 10 minutes time to make you eligible to our self-service payroll</p>
 
-                        <a href="https://wa.me/+254753581874" class="sim-btn hvr-bounce-to-top"><span>Contact Us Directly</span></a>
+                        <a href="https://api.whatsapp.com/send?phone=254753581874" class="sim-btn hvr-bounce-to-top"><span>Contact Us Directly</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
@@ -141,7 +141,7 @@
 							<i class="flaticon-seo"></i>
 						</div>
 						<h2>1.Join</h2>
-						<p>To Join this amazing program, register with only $3.00 that is paid with <b>LIPA NA MPESA</b> PAYBILL option <b>(--- ---)</b></p>
+						<p>To Join this amazing program, register with only $3.00 that is paid with instant PayPal or <b>LIPA NA MPESA</b> PAYBILL option <b>(--- ---)</b></p> see <a href="join.html"> JOIN US</a>
 					</div>
                 </div><!-- end col -->
                 <div class="col-md-4">
@@ -431,7 +431,7 @@
                 <div class="col-md-12">
                     <div class="contact_form">
                         <div id="message"></div>
-                         <p><a href="https://wa.me/+254753581874">1. Clic here to WhatsApp Us</a></p>
+                         <p><a href="https://api.whatsapp.com/send?phone=254753581874">1. Clic here to WhatsApp Us</a></p>
                          <p><a href="mailto:onrefer53@gmail.com">2. Clic here to send us an email message</a></p>
                          
                         
