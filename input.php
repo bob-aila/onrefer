@@ -1,4 +1,10 @@
 <?php
+session_start();
+// If the user is not logged in redirect to the login page...
+if (!isset($_SESSION['loggedin'])) {
+	header('Location: index.html');
+	exit();
+}
 function test_input($data) {
   $data = trim($data);
   $data = stripslashes($data);
@@ -96,7 +102,7 @@ function test_input($data) {
   Contact: 07000000000<br>
    <input type="number" name="contact" required="required" pattern="0([0-9]){10}">
   <br><br>
-  Username: <input type="text" name="username" required="required">
+  Username: <input type="text" name="username" required="required" value="<?php echo $_SESSION['name'];?>" >
   <br><br>
   Inviter:<input type="text" name="inviter"  required="required" >
   <br><br>
