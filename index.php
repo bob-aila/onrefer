@@ -172,12 +172,12 @@
 					</div>
                 </div><!-- end col -->
                     <div class="services-inner-box">
-			    <div class="ser-icon">
 							<i class="flaticon-process"></i>
 						</div>
 						<h2>5.Hosting</h2>
+		    Cheaper plans for developers in need of web hosting services<br>
 						<a href="https://www.SmarterASP.NET/index?r=bobphilip">
-<img src="https://www.SmarterASP.NET/affiliate/728X90.gif" border="0">
+<img src="https://www.SmarterASP.NET/affiliate/300x250.gif" border="0">
 </a>
 					</div>
 						<div class="ser-icon">
