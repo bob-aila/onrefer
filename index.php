@@ -173,6 +173,14 @@
                 </div><!-- end col -->
 				<div class="col-md-4">
                     <div class="services-inner-box">
+			    <div class="ser-icon">
+							<i class="flaticon-process"></i>
+						</div>
+						<h2>5.Hosting</h2>
+						<a href="https://www.SmarterASP.NET/index?r=bobphilip">
+<img src="https://www.SmarterASP.NET/affiliate/728X90.gif" border="0">
+</a>
+					</div>
 						<div class="ser-icon">
 							<i class="flaticon-discuss-issue"></i>
 						</div>
