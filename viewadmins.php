@@ -107,7 +107,7 @@ $sel_query="Select * from admin ORDER BY id desc";
 $result = mysqli_query($con,$sel_query);
 while($row = mysqli_fetch_assoc($result)) { 
 ?>
-<tr><td align="center"><?php echo $count; ?></td><td align="center"><?php echo $row["username"]; ?></td><td align="center"><?php echo $row["password"]; ?></td><td align="center"><a href="#edit?id=<?php echo $row["id"]; ?>">Edit</a></td><td align="center"><a href="delete.php?id=<?php echo $row["id"]; ?>">Delete</a></td></tr>
+<tr><td align="center"><?php echo $count; ?></td><td align="center"><?php echo $row["username"]; ?></td><td align="center"><?php echo $row["password"]; ?></td><td align="center"><a href="#edit?id=<?php echo $row["id"]; ?>">Edit</a></td><td align="center"><a href="deletea.php?id=<?php echo $row["id"]; ?>">Delete</a></td></tr>
 <?php $count++; } ?>
         </table>
         </div>
