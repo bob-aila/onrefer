@@ -171,7 +171,6 @@
 						<p>This is an additional program to boost your earnings by helping the world in nature surveys that can earn a credit or withdrawable amounts worldwide</p>
 					</div>
                 </div><!-- end col -->
-				<div class="col-md-4">
                     <div class="services-inner-box">
 			    <div class="ser-icon">
 							<i class="flaticon-process"></i>
