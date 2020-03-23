@@ -153,7 +153,7 @@ if ($stmt = $con->prepare('SELECT id, password FROM users WHERE username = ?')) 
 				<a href="#"><img src="images/logo.png" alt="" /></a>
                 <div class="footer-center">
                     <p class="footer-links">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                 
                     </p>
                     <p class="footer-company-name">All Rights Reserved. &copy; 2020 <a href="#">onRefer</a> Design By : 
