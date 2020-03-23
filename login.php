@@ -135,9 +135,9 @@ if ($stmt = $con->prepare('SELECT id, password FROM users WHERE username = ?')) 
     </label>
   </div>
   <div class="container" style="background-color:#f1f1f1">
-    <a href"index.php">
+    <a href="index.php">
     <button type="button" class="cancelbtn">Cancel</button></a>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <span class="psw">Forgot <a href="me.php">password?</a></span>
   </div>
 </form></center>
 </body>
