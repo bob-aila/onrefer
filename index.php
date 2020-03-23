@@ -79,7 +79,7 @@
             </li>
 			<li class="nav-item">
                 <a class="nav-link js-scroll-trigger" 
-             href="admlogin.html">Staff</a>
+             href="admlogin.php">Staff</a>
             </li>
           </ul>
         </div>
@@ -98,7 +98,7 @@
 					<b>Withdraw</b>
 				</span>
 				<div class="btn-ber">
-					<a class="get_btn hvr-bounce-to-top" href="login.html">Log in</a>
+					<a class="get_btn hvr-bounce-to-top" href="login.php">Log in</a>
 					<a class="learn_btn hvr-bounce-to-top" href="join.html">Join Us</a>
 				</div>
 			</h3>
