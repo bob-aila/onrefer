@@ -79,6 +79,9 @@ if (!isset($_SESSION['loggedin'])) {
                <li class="nav-item">
               <a class="nav-link js-scroll-trigger active" href="input.php">Register Details</a>
             </li>
+		      <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="new.php">Reset Password</a>
+            </li>
               <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="logout.php">Logout</a>
             </li>
