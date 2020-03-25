@@ -142,7 +142,7 @@ else{
 	
 	<form name="message" action="">
 		<input name="usermsg" type="text" id="usermsg" size="63" />
-		<input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+		<input name="submitmsg" type="submit" placeholder="Type here|" id="submitmsg" value="Send" />
 	</form>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
