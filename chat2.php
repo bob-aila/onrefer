@@ -9,7 +9,7 @@ if(isset($_GET['logout'])){
 	fclose($fp);
 	
 	session_destroy();
-	header("Location: chat.php"); //Redirect the user
+	header("Location: users.php"); //Redirect the user
 }
 
 function loginForm(){
