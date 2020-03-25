@@ -59,10 +59,6 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger active" href="index.php">Home</a>
             </li>
-			<li class="nav-item">
-                <a class="nav-link js-scroll-trigger" 
-             href="admlogin.html">Admin</a>
-            </li>
           </ul>
         </div>
       </div>
