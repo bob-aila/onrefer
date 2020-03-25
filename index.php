@@ -96,12 +96,35 @@
 					<b>Invite</b>
 					<b>Earn</b>
 					<b>Withdraw</b>
-				</span>
+				</span></h3>
+			     <head> 
+            <style>
+    
+                 #blink{
+      font-weight: bold;
+      font-family: sans-serif;
+      color: yellow;
+      transition:0.2s;
+    }
+   </style>
+  </head>
+  <body>
+     <p id="blink">
+                 April token of $1 till 10th
+			
+      </p>
+    <script type="text/javascript">
+      var blink = document.getElementById('blink');
+      setInterval(function() {
+         blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+      }, 500); 
+    </script>
+  </body>
 				<div class="btn-ber">
 					<a class="get_btn hvr-bounce-to-top" href="login.php">Log in</a>
 					<a class="learn_btn hvr-bounce-to-top" href="join.html">Join Us</a>
 				</div>
-			</h3>
+			
 		</div>
 	</section>
 
@@ -150,7 +173,7 @@
 							<i class="flaticon-development"></i>
 						</div>
 						<h2>2.Invite</h2>
-						<p>This is the second stage and is where hard working people are making the difference, after log-in you can change or maintain your password for security purposes and start exploiting your marketting skills</p>
+						<p>This is the second stage and is where hard working people are making the difference, after log-in you can change or maintain your password for security purposes and start exploiting your marketting skills with a <b>FREE CHAT</b></p>
 					</div>
                 </div><!-- end col -->
 				<div class="col-md-4">
@@ -178,7 +201,7 @@
 			    </div>
 						<h2>5.Hosting</h2>
 		    Cheaper plans for developers in need of web hosting services<br>
-						<a href="https://www.SmarterASP.NET/index?r=bobphilip">
+						<a href="https://www.SmarterASP.NET/index?r=101049377>
 <img src="https://www.SmarterASP.NET/affiliate/300x250.gif" border="0">
 </a>
 					</div>
@@ -192,7 +215,7 @@
 						<p>The services of this program is subjected to 24hours customer care support team</p>
 					</div>
                 </div><!-- end col -->
-		<a href="https://www.SmarterASP.NET/index?r=bobphilip">
+		<a href="https://www.SmarterASP.NET/index?r=101049377">
 <img src="https://www.SmarterASP.NET/affiliate/728X90.gif" border="0">
 </a>		
             </div><!-- end row -->
