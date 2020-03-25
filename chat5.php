@@ -8,7 +8,6 @@ if(isset($_GET['logout'])){
 	fwrite($fp, "<div class='msgln'><i>User ". $_SESSION['name'] ." has left the chat session.</i><br></div>");
 	fclose($fp);
 	
-	session_destroy();
 	header("Location: admin.php"); //Redirect the user
 }
 
@@ -128,7 +127,7 @@ else{
 <div id="wrapper">
 	<div id="menu">
 		<p class="welcome">Welcome, <b><?php echo $_SESSION['name']; ?></b></p>
-		<p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+		<p class="logout"><a id="exit" href="admin.php">Exit Chat</a></p>
 		<div style="clear:both"></div>
 	</div>	
 	<div id="chatbox"><?php
