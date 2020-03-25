@@ -138,7 +138,7 @@ else{
 	}
 	?></div>
 	
-	<form name="message" action="">
+	<form name="message" action="post.php">
 		<input name="usermsg" type="text" id="usermsg" size="63" />
 		<input name="submitmsg" type="submit" placeholder="Type here|"  id="submitmsg" value="Send" />
 	</form>
