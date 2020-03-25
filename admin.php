@@ -87,7 +87,7 @@ $check = "SELECT * FROM admin WHERE username='$_SESSION[name]' LIMIT 1";
               <a class="nav-link js-scroll-trigger" href="withdrawals.php">Withdrawals</a>
             </li>
 		  <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="chat2.php">onChat</a>
+              <a class="nav-link js-scroll-trigger" href="chat5.php">onChat</a>
             </li>
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="logout.php">Log Out</a>
