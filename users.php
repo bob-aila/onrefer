@@ -81,7 +81,7 @@ if (!isset($_SESSION['loggedin'])) {
             </li>
 		  </li>
                <li class="nav-item">
-              <a class="nav-link js-scroll-trigger active" href="chat2.php">Register Details</a>
+              <a class="nav-link js-scroll-trigger active" href="chat2.php">onChat</a>
             </li>
 		      <li class="nav-item">
               <a class="nav-link js-scroll-trigger active" href="new.php">Reset Password</a>
