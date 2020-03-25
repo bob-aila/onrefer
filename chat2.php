@@ -1,17 +1,6 @@
 <?
 session_start();
 
-if(isset($_GET['logout'])){	
-	
-	//Simple exit message
-	$fp = fopen("log.html", 'a');
-	fwrite($fp, "<div class='msgln'><i>User ". $_SESSION['name'] ." has left the chat session.</i><br></div>");
-	fclose($fp);
-	
-	session_destroy();
-	header("Location: users.php"); //Redirect the user
-}
-
 function loginForm(){
 header('location: login.php');
 }
@@ -123,7 +112,6 @@ if(!isset($_SESSION['name'])){
 	loginForm();
 }
 else{
-    $nise=$_SESSION['name'];
 ?>
 <div id="wrapper">
 	<div id="menu">
@@ -140,6 +128,13 @@ else{
 		echo $contents;
 	}
 	?></div>
+	<div id="exit" class="exit">
+			//Simple exit message
+	$fp = fopen("log.html", 'a');
+	fwrite($fp, "<div class='msgln'><i>User ". $_SESSION['name'] ." has left the chat session.</i><br></div>");
+	fclose($fp);
+	header("Location: users.php"); //Redirect the user
+	</div>
 	
 	<form name="message" action="">
 		<input name="usermsg" type="text" id="usermsg" size="63" />
@@ -173,7 +168,7 @@ $(document).ready(function(){
 		  	},
 		});
 	}
-	setInterval (loadLog, 2500);	//Reload file every 2.5 seconds
+	setInterval (loadLog, 1000);	//Reload file every 2.5 seconds
 	
 	//If user wants to end session
 	$("#exit").click(function(){
