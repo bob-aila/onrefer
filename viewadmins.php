@@ -8,7 +8,7 @@ exit();
 $check = "SELECT * FROM admin WHERE username='$_SESSION[name]' LIMIT 1";
     $results = mysqli_query($con,$check);
     if (mysqli_num_rows($results) <>1) {
-    header('Location: index.html');
+    header('Location: index.php');
     exit();
     }
 
