@@ -11,6 +11,7 @@ $check = "SELECT * FROM admin WHERE username='$_SESSION[name]' LIMIT 1";
     header('Location: index.html');
     exit();
     }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
