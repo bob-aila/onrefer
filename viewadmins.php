@@ -2,7 +2,7 @@
 session_start();
 require('database.php');
 if (!isset($_SESSION['loggedin'])) {
-header('Location: index.html');
+header('Location: index.php');
 exit();
 }
 $check = "SELECT * FROM admin WHERE username='$_SESSION[name]' LIMIT 1";
