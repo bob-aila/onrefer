@@ -123,7 +123,7 @@ else{
 	}
 	?></div>
 	
-	<form name="message" action="">
+	<form name="message" action="" enctype="multipart/form-data".<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>>
 		<input name="usermsg" type="text" id="usermsg" size="63" />
 		<input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
 	</form>
@@ -165,6 +165,14 @@ $(document).ready(function(){
 });
 </script>
 <?php
+}
+session_start();
+if(isset($_SESSION['name'])){
+	$text = $_POST['usermsg'];
+	
+	$fp = fopen("log.html", 'a');
+	fwrite($fp, "<div class='msgln'>(".date("g:i A").") <b>".$_SESSION['name']."</b>: ".stripslashes(htmlspecialchars($text))."<br></div>");
+	fclose($fp);
 }
 ?>
 </body>
