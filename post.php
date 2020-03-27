@@ -1,12 +1,10 @@
-
-
 <?
 session_start();
-if(isset($_POST['submitmsg'])){
-	$text = $_POST['usermsg'];
+if(isset($_SESSION['name'])){
+	$text = $_POST['text'];
+	
 	$fp = fopen("log.html", 'a');
-	fwrite($fp, "<div class='msgln'><b>".$_SESSION['name']."</b>: <br>".stripslashes(htmlspecialchars($text))."<br>(".date("g:i A").")<br></div>");
+	fwrite($fp, "<div class='msgln'>(".date("g:i A").") <b>".$_SESSION['name']."</b>: ".stripslashes(htmlspecialchars($text))."<br></div>");
 	fclose($fp);
-header('location: chat2.php');
 }
 ?>
