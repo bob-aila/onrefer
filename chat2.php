@@ -8,8 +8,8 @@ if(isset($_GET['logout'])){
 	fwrite($fp, "<div class='msgln'><i>User ". $_SESSION['name'] ." has left the chat session.</i><br></div>");
 	fclose($fp);
 	
-	session_destroy();
-	header("Location: index.php"); //Redirect the user
+
+	header("Location: users.php"); //Redirect the user
 }
 
 function loginForm(){
