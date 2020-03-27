@@ -118,11 +118,7 @@ require('database.php');
 // We don't have the password or email info stored in sessions so instead we can get the results from the database.
 $stmt = $con->prepare('SELECT username FROM users WHERE id = ?');
 // In this case we can use the account ID to get the account info.
-$stmt->bind_param('i', $_SESSION['id']);
-$stmt->execute();
-$stmt->bind_result($password);
-$stmt->fetch();
-$stmt->close();
+
 ?>
 
 <!DOCTYPE html>
@@ -143,7 +139,7 @@ $stmt->close();
 					</tr>
 					<tr>
 						<td>Password:</td>
-						<td><?=$row['password']?></td>
+						<td><?=$row["password"]?>PROTECTED</td>
 					</tr>
 						</table>
 			</div>
