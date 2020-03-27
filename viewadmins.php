@@ -141,8 +141,8 @@ if(isset($_POST['new']) && $_POST['new']==1)
 {
 $id=$_REQUEST['id'];
 $username =$_REQUEST['username'];
-$password =$_REQUEST['password'];
-$update="update admin set username='".$username."', password='".$password."'";
+$password = hash("sha256",$_REQUEST['password']);
+$update="update admin set password='".$password."' WHERE username='".$username."'";
 mysqli_query($con, $update) or die(mysqli_error($con));
 echo "record Updated Successfully". "</br></br><a href='viewdetails.php'>View Updated</a>";
 echo '<p style="color:#FF0000;">'.$status.'</p>';
@@ -150,8 +150,6 @@ echo '<p style="color:#FF0000;">'.$status.'</p>';
 ?>
              <div class="form">
 <form name="form" method="post" action=""> 
-<input type="hidden" name="new" value="1" />
-<input name="id" type="hidden" value="<?php echo $row['id'];?>" />
  <p><input type="text" name="username" placeholder="username" required value="<?php echo $row['username'];?>" /></p>
  <p><input type="text" name="password" placeholder="password" required value="<?php echo $row['password'];?>" /></p>
 
