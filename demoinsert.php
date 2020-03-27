@@ -6,7 +6,7 @@
     require('database.php');
     // Escape user inputs for security
     $username = ($_POST['username']);   
-    $password = ($_POST['password']);
+    $password = hash("sha256", $_POST['password']);
     // attempt insert query execution
     $sql = "INSERT INTO users (username, password) VALUES ('$username', '$password')";
     if(mysqli_query($con,$sql)){
