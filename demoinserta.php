@@ -2,7 +2,7 @@
 <?php
 require('database.php');
 $adm = ($_POST['adm']);
-    $pass = ($_POST['pass']);
+    $password = hash("sha256", $_POST['pass']);
      $sql = "INSERT INTO admin (username, password) VALUES ('$adm', '$pass')";
     if(mysqli_query($con,$sql)){
         echo "Records added successfully.";
