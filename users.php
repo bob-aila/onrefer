@@ -143,7 +143,7 @@ $stmt->close();
 					</tr>
 					<tr>
 						<td>Password:</td>
-						<td><?=$password?></td>
+						<td><?=$row['password']?></td>
 					</tr>
 						</table>
 			</div>
