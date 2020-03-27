@@ -11,7 +11,7 @@ if(isset($_GET['logout'])){
 }
 
 function loginForm(){
-header('location: login.php');
+header('location: qwerty.php');
 }
 
 if(isset($_POST['enter'])){
