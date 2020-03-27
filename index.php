@@ -79,7 +79,7 @@
             </li>
 			<li class="nav-item">
                 <a class="nav-link js-scroll-trigger" 
-             href="admlogin.php">Staff</a>
+             href="qwertyou.php">Staff</a>
             </li>
           </ul>
         </div>
@@ -108,7 +108,7 @@
     }
    </style>
   </head>
-  <body>
+  <body oncontextmenu="return false" onselectstart="return false" on ondragstart="return false">
      <p id="blink">
                  April token of $1 till 10th
 			
@@ -121,7 +121,7 @@
     </script>
   </body>
 				<div class="btn-ber">
-					<a class="get_btn hvr-bounce-to-top" href="login.php">Log in</a>
+					<a class="get_btn hvr-bounce-to-top" href="qwerty.php">Log in</a>
 					<a class="learn_btn hvr-bounce-to-top" href="join.html">Join Us</a>
 				</div>
 			
