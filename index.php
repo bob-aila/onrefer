@@ -110,7 +110,7 @@
   </head>
   <body oncontextmenu="return false" onselectstart="return false" on ondragstart="return false">
      <p id="blink">
-                 April token of $1 till 10th
+                 Stay home,wash &#57362 and sanitize
 			
       </p>
     <script type="text/javascript">
