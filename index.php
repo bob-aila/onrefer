@@ -110,7 +110,7 @@
   </head>
   <body oncontextmenu="return false" onselectstart="return false" on ondragstart="return false">
      <p id="blink">
-                 Stay home,wash &#xe012; and sanitize
+                 Stay home,wash 🤲 and sanitize
 			
       </p>
     <script type="text/javascript">
