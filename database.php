@@ -1,6 +1,6 @@
 
 <?php
-$con = mysqli_connect("sql5.freemysqlhosting.net","sql5439666","sql5439666","74wuzw53Rm");
+$con = mysqli_connect("sql5.freemysqlhosting.net","sql5439666","74wuzw53Rm","sql5439666");
 // Check connection
 if (mysqli_connect_errno())
   {
