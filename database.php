@@ -1,6 +1,6 @@
 
 <?php
-$con = mysqli_connect("mysql5025.site4now.net","a56852_onrefer","bobphilip93","db_a56852_onrefer");
+$con = mysqli_connect("sql5.freemysqlhosting.net","sql5439666","74wuzw53Rm","sql5439666");
 // Check connection
 if (mysqli_connect_errno())
   {
